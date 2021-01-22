@@ -2,7 +2,7 @@
 'RCET0265
 'Spring 2021
 'Say My Name
-'
+'https://github.com/ToriGomez/SayMyName.git
 
 Option Explicit On
 Option Strict On
