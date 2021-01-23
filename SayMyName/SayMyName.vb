@@ -15,9 +15,17 @@ Module SayMyName
         Console.WriteLine("Type Name and Press Enter")
 
         userInput = Console.ReadLine()
-        Console.WriteLine($"Welcome! Thank you {userInput}!")
+
+        If userInput = "Emily" Or userInput = "Joe" Or userInput = "emily" Or userInput = "joe" Then
+            Console.WriteLine($"Welcome {userInput}!")
+            Console.Read()
+        Else
+            Console.WriteLine("You're in Say my Name but you said the wrong name... Try again later?")
+            Console.WriteLine("Thank You!")
+        End If
 
         Console.ReadLine()
+
     End Sub
 
 End Module
